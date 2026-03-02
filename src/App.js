@@ -103,7 +103,7 @@ function Intro(){
 function Profile(){
   return(
     <div className="profile">
-       <img src="/profile.png" alt="Saurabh Pandey" />
+       <img src="%PUBLIC_URL%/profile.png" alt="Saurabh Pandey" />
   
   <h2>Saurabh Pandey</h2>
   <p className="role">Frontend Developer (React)</p>
