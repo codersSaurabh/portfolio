@@ -93,7 +93,7 @@ function Intro(){
 
   <div className="hero-buttons">
     <a href="#projects" className="btn primary">View Projects</a>
-    <a href="%PUBLIC_URL%/saurabhResume26.pdf" className="btn secondary" download  >
+    <a href={process.env.PUBLIC_URL + "saurabhResume26.pdf"} className="btn secondary" download  >
       Download Resume
     </a>
   </div>
@@ -103,7 +103,7 @@ function Intro(){
 function Profile(){
   return(
     <div className="profile">
-       <img src="%PUBLIC_URL%/profile.png" alt="Saurabh Pandey" />
+       <img src={process.env.PUBLIC_URL + "/profile.png"} alt="Saurabh Pandey" />
   
   <h2>Saurabh Pandey</h2>
   <p className="role">Frontend Developer (React)</p>
