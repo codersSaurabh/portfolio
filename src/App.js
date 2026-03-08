@@ -12,7 +12,9 @@ const projects = [
      a responsive layout and modern UI to ensure a smooth experience across different devices.`,
 
 Tech: `React.js, JavaScript, HTML, CSS`,
-    github: "https://github.com/yourusername/portfolio"
+
+   live:"https://coderssaurabh.github.io/portfolio/",
+   github:"https://github.com/codersSaurabh/portfolio";
   },
   {
     id: 2,
