@@ -149,10 +149,10 @@ function Profile(){
 
   <div className="icon">
 
-    <a href="https://github.com/yourusername" target="_blank"><i className="fa fa-github"
+    <a href="https://github.com/codersSaurabh" target="_blank"><i className="fa fa-github"
     ></i></a>
     <a
-  href="https://www.linkedin.com/in/yourusername"
+  href="https://www.linkedin.com/in/saurabh-pandey-4bb192246"
   target="_blank"
   rel="noopener noreferrer"
 >
