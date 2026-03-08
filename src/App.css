@@ -281,6 +281,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  justify-content: space-between; 
   border-top: 4px solid var(--secondary);
 }
 
@@ -298,10 +299,28 @@ html {
   font-size: 14px;
   transition: all 0.3s ease;
 }
-
+.project-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.project-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: justify;
+}
 .project-buttons .btn:hover {
   background: var(--primary);
   color: white;
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 /* ================= CONTACT ================= */

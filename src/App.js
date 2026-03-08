@@ -5,16 +5,51 @@ const projects = [
   {
     id: 1,
     name: "Portfolio Website",
-    description: "Personal portfolio built using React.",
-    live: "https://your-live-link.com",
+    description: `Designed and developed a personal portfolio website to showcase my projects, 
+    skills, and development experience. The website provides an interactive interface where 
+    visitors can explore my work, learn about my technical skills, and contact me easily. 
+    It features
+     a responsive layout and modern UI to ensure a smooth experience across different devices.`,
+
+Tech: `React.js, JavaScript, HTML, CSS`,
     github: "https://github.com/yourusername/portfolio"
   },
   {
     id: 2,
-    name: "Portfolio Website",
-    description: "Personal portfolio built using React.",
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/portfolio"
+    name: "Hospital Management System",
+    description: `Developed a full-stack web application that streamlines hospital operations such
+     as patient management, appointment scheduling, and record handling. The system helps 
+     administrators and
+     doctors manage hospital data efficiently while improving workflow and reducing manual 
+     processes.`,
+
+Tech: `Django, Python, HTML, CSS, JavaScript, SQLite`,
+    live: "https://saurabh544.pythonanywhere.com/",
+    github: "https://github.com/codersSaurabh/HMs"
+  },
+  {
+    id:3,
+    name:'Library Management System',
+    description:`Built an online library seat booking system that allows students to reserve 
+    seats for different study shifts. The system includes OTP-based mobile verification and 
+    automated booking management to simplify the seat allocation process and reduce manual work 
+    for the library administration.`,
+
+Tech: `Django, Python, HTML, CSS, JavaScript, SQLite` ,
+    live:"https://shivakunjlibrary.in/",
+    github:"https://github.com/codersSaurabh/Shiva-Kunj-Library-"
+  },
+  {
+    id:4,
+    name:"E-Commerce Website",
+    description:`Developed a full-stack e-commerce web application that allows users to browse 
+    products, add items to their cart, place orders, and track purchases using a unique tracking
+     ID. The platform includes category-based product browsing and order tracking features to 
+     enhance the shopping experience. While the payment gateway integration is planned for 
+    future updates, the core shopping and order management functionalities are fully implemented.`,
+    Tech:`Python, Django, HTML, CSS, JavaScript, SQLite`,
+    live:"https://sumitcoder.pythonanywhere.com/",
+    github:"https://github.com/codersSaurabh/E-commerce-website"
   }
 ]
 
@@ -93,7 +128,7 @@ function Intro(){
 
   <div className="hero-buttons">
     <a href="#projects" className="btn primary">View Projects</a>
-    <a href={process.env.PUBLIC_URL + "saurabhResume26.pdf"} className="btn secondary" download  >
+    <a href={process.env.PUBLIC_URL + "/saurabhResume26.pdf"} className="btn secondary" download  >
       Download Resume
     </a>
   </div>
@@ -123,6 +158,7 @@ function Profile(){
 >
 <i class="fa fa-linkedin"></i>
 </a>
+<a href="https://leetcode.com/u/SaurabhPandey121/" target="_blank"><i class="fa fa-code"></i></a>
   </div>
     </div>
   )
@@ -160,6 +196,9 @@ function ProjectCard({project}) {
       <p>
        {project.description}
       </p>
+       <p className="tech">
+    <strong>Technologies:</strong> {project.Tech}
+  </p>
 
       <div className="project-buttons">
         <a href={project.live} className="btn live">Live🌐</a>
@@ -176,9 +215,9 @@ return(
      <h2>Contact</h2>
 
   <div className="contact-box">
-    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+    <p>Email: <a href="mailto:saurabh544321@gmail.com">saurabh544321@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/codersSaurabh" target="_blank">github.com/codersSaurabh</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/saurabh-pandey-4bb192246" target="_blank">linkedin.com/in/saurabh-pandey-4bb192246</a></p>
   </div>
   </div>
 )
