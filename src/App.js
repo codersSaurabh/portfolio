@@ -14,7 +14,7 @@ const projects = [
 Tech: `React.js, JavaScript, HTML, CSS`,
 
    live:"https://coderssaurabh.github.io/portfolio/",
-   github:"https://github.com/codersSaurabh/portfolio";
+   github:"https://github.com/codersSaurabh/portfolio"
   },
   {
     id: 2,
