@@ -130,7 +130,7 @@ function Intro(){
 
   <div className="hero-buttons">
     <a href="#projects" className="btn primary">View Projects</a>
-    <a href={process.env.PUBLIC_URL + "/resume(2).pdf"} className="btn secondary" download  >
+    <a href={process.env.PUBLIC_URL + "/resume.pdf"} className="btn secondary" download  >
       Download Resume
     </a>
   </div>
