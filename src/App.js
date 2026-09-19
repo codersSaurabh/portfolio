@@ -38,7 +38,7 @@ Tech: `Django, Python, HTML, CSS, JavaScript, SQLite`,
     for the library administration.`,
 
 Tech: `Django, Python, HTML, CSS, JavaScript, SQLite` ,
-    live:"https://shivakunjlibrary.in/",
+    live:"https://library-management-one-gules.vercel.app/",
     github:"https://github.com/codersSaurabh/Shiva-Kunj-Library-"
   },
   {
@@ -130,7 +130,7 @@ function Intro(){
 
   <div className="hero-buttons">
     <a href="#projects" className="btn primary">View Projects</a>
-    <a href={process.env.PUBLIC_URL + "/saurabhResume26.pdf"} className="btn secondary" download  >
+    <a href={process.env.PUBLIC_URL + "/resume(2).pdf"} className="btn secondary" download  >
       Download Resume
     </a>
   </div>
